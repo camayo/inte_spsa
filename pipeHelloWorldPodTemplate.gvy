@@ -1,9 +1,9 @@
 pipeline {
-  agent { label 'new1' }
+  agent { label 'mavenqa' }
   stages {
-    stage('Run maven') {
+    stage('Run mavenqa') {
       steps {
-       container('new1') {
+       container('mavenqa') {
 	  echo 'Pipeline Script with PodTemplate from Cristian GitHub SCM'
         }
       }
