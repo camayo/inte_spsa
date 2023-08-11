@@ -4,7 +4,7 @@ pipeline {
     stage('Run maven') {
       steps {
        container('new1') {
-	  echo 'hello world'
+	  echo 'Pipeline Script from Cristian GitHub SCM'
         }
       }
     }
