@@ -7,7 +7,7 @@ pipeline {
         stage('Hello') {
             steps {
                 //echo 'Hello World'
-                helloWorldSimple( "Cristian", "Pipeline Script from Cristian GitHub SCM")
+                helloWorldSimple( "Cristian", "Pipeline Script with SharedLib from Cristian GitHub SCM")
             }
         }
     }
